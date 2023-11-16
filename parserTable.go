@@ -421,6 +421,7 @@ func main() {
 
 }
 
+// generateExpandGrammar 生成拓广文法
 func generateExpandGrammar(grammar map[string][]string) map[string][]string {
 	expandGrammar := make(map[string][]string)
 	for k, vStrList := range grammar {
